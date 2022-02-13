@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.newproject.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/nav_peserta"
+        android:name="com.example.newproject.ui.peserta.PesertaFragment"
+        android:label="Peserta"
+        tools:layout="@layout/fragment_peserta" />
+    <fragment
+        android:id="@+id/nav_instruktur"
+        android:name="com.example.newproject.ui.instruktur.InstrukturFragment"
+        android:label="Instruktur"
+        tools:layout="@layout/fragment_instruktur" />
+    <fragment
+        android:id="@+id/nav_materi"
+        android:name="com.example.newproject.ui.materi.MateriFragment"
+        android:label="Materi"
+        tools:layout="@layout/fragment_materi" />
+    <fragment
+        android:id="@+id/nav_kelas"
+        android:name="com.example.newproject.ui.kelas.KelasFragment"
+        android:label="Kelas"
+        tools:layout="@layout/fragment_kelas" />
+    <fragment
+        android:id="@+id/nav_detail_kelas"
+        android:name="com.example.newproject.ui.detailkelas.DetailKelasFragment"
+        android:label="Detail Kelas"
+        tools:layout="@layout/fragment_detail_kelas" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.newproject.ui.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

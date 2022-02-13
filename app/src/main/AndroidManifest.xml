@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewProject"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.detailkelas.DetailDetailKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.detailkelas.TambahDataDetailKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kelas.TambahDataKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kelas.DetailKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kelas.KelasFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.instruktur.TambahDataInstrukturActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.instruktur.DetailInstrukturActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.materi.TambahDataMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.materi.DetailMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.peserta.TambahDataPesertaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.peserta.DetailPesertaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NewProject.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
