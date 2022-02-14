@@ -70,7 +70,7 @@ public class TambahDataInstrukturActivity extends AppCompatActivity implements V
                 "\n Email : " + email +
                 "\n No HP : " + hp);
 
-        builder.setIcon(getResources().getDrawable(android.R.drawable.ic_delete));
+        builder.setIcon(getResources().getDrawable(android.R.drawable.ic_input_add));
         builder.setCancelable(false);
         builder.setNegativeButton("Cancel",null);
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {

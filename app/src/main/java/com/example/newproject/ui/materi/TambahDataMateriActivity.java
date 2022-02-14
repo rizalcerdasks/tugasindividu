@@ -62,7 +62,7 @@ public class TambahDataMateriActivity extends AppCompatActivity implements View.
         builder.setTitle("Insert Data");
         builder.setMessage("Are you sure want to insert this data? " +
                 "\n Nama : " + nama);
-        builder.setIcon(getResources().getDrawable(android.R.drawable.ic_delete));
+        builder.setIcon(getResources().getDrawable(android.R.drawable.ic_input_add));
         builder.setCancelable(false);
         builder.setNegativeButton("Cancel",null);
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
